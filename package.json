@@ -1,0 +1,33 @@
+{
+  "name": "express-temp",
+  "version": "1.0.0",
+  "description": "Backend Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "author": "Talal Numan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "firebase": "^9.9.0",
+    "helmet": "^5.1.0",
+    "http-status": "^1.5.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.5",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
